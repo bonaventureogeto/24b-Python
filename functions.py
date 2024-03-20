@@ -26,3 +26,11 @@ num1 = int(input("Enter the first number: "))
 num2 = int(input("Enter the second number: "))
 
 print(sum(num1, num2))
+
+scores = []
+
+
+def grading():
+    while True:
+        score = int(input("Enter student score: "))
+        scores.append(score)
